@@ -13,7 +13,7 @@ cycleCount = 0
 currentSpace = ss.SpaceSystem()
 
 # create a ship
-ship = st.ShipTemplate(name="Explorer", speed=10, crew=100)
+ship = st.ShipTemplate(name="Explorer", speed=1, crew=100)
 currentSpace.add_object(ship)  # Add the ship to the system.
 
 # print the objects in the system
