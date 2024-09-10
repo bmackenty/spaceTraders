@@ -17,4 +17,4 @@ class SpaceSystem:
     # update all the objects in the system
     def update(self):
         for object in self.objects:
-            object.update()
+            object.update_position()
